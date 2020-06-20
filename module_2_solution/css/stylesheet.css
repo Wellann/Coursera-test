@@ -49,6 +49,8 @@ p{
 
 
 /*** responsive styles ***/
+
+/* Desktop devices */
 @media(min-width:992px){
     section{
         float: left;
@@ -61,17 +63,16 @@ p{
     }
 }
 
+/* Tablet devices */
 @media(min-width:768px) and (max-width:991px){
     #section1{
         float: left;
         width: calc(50% - 10px);
-        margin-right: 10px;
     }
 
     #section2{
-        float: left;
-        width: calc(50% - 5px);
-        margin: 0px 10px 0px 0px;
+        float: right;
+        width: calc(50% - 10px);
     }
 
     #section3{
@@ -83,6 +84,7 @@ p{
     }
 }
 
+/* Mobile devices */
 @media(max-width:767px){
     section{
         margin: 30px;
