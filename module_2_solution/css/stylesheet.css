@@ -70,7 +70,7 @@ p{
 
     #section2{
         float: left;
-        width: calc(50% - 10px);
+        width: calc(50% - 5px);
         margin: 0px 10px 0px 0px;
     }
 
