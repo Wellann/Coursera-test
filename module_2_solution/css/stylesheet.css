@@ -1,1 +1,95 @@
+/*** base styles ***/
+* {
+    box-sizing: border-box;
+}
 
+body{
+    font-size: 18px;
+    font-family: Helvetica, Arial, sans-serif
+}
+
+h1{
+    font-size: 1.7em;
+    text-align: center;
+}
+
+.container{
+    margin: 10px;
+}
+
+section{
+    background-color: gray;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+h2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    float: right;
+    padding: 5px 10px 5px 10px;
+    border: 1px black solid;
+    font-size: 1.25em;
+    text-align: center;
+}
+#section1 h2{
+    background-color: blue;
+}
+#section2 h2{
+    background-color: brown;
+}
+#section3 h2{
+    background-color: chartreuse;
+}
+
+p{
+    padding: 10px;
+    clear: right;
+}
+
+
+/*** responsive styles ***/
+@media(min-width:992px){
+    section{
+        float: left;
+        width: calc(33.33% - 10px);
+        margin-right: 10px
+    }
+
+    h2{
+        width: 200px;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px){
+    #section1{
+        float: left;
+        width: calc(50% - 10px);
+        margin-right: 10px;
+    }
+
+    #section2{
+        float: left;
+        width: calc(50% - 10px);
+        margin: 0px 10px 0px 0px;
+    }
+
+    #section3{
+        clear: both;
+    }
+
+    h2{
+        width: 200px;
+    }
+}
+
+@media(max-width:767px){
+    section{
+        margin: 30px;
+        clear: left;
+    }
+
+    h2{
+        width: 100px;
+    }
+}
