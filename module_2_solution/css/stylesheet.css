@@ -67,12 +67,12 @@ p{
 @media(min-width:768px) and (max-width:991px){
     #section1{
         float: left;
-        width: calc(50% - 10px);
+        width: calc(50% - 5px);
     }
 
     #section2{
         float: right;
-        width: calc(50% - 10px);
+        width: calc(50% - 5px);
     }
 
     #section3{
